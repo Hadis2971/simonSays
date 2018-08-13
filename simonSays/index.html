@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Simon Says Game</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        
+        <h1 id="hdr">Simon Says</h1>
+        <div id="container">
+            <div class="inner_container">
+                <div id="red" class="boxes"></div>
+                <div id="green" class="boxes"></div>
+            </div>
+            <div id="result">
+                <h2 style="margin-top: 0.8em;">Simon Says</h2>
+                <div id="buttons">
+                    <div style="text-align: left;margin-right: 0.3em;">
+                        <div id="r" style="display: block;">00</div>
+                        Count
+                    </div>
+                    <div style="margin-left: 0.3em;">
+                        <button id="start" style="display: block;margin-bottom: 0.5em;"></button>
+                        Start
+                    </div>
+                    <div style="margin-left: 0.3em;">
+                        <button id="strict" style="display: block;margin-bottom: 0.5em;"></button>
+                        Strict
+                    </div>
+                </div>
+                <div style="margin-top: 0.5em;">
+                    <span style="position: relative;bottom: 2.7em;">OFF</span>
+                    <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider"></span>
+                    </label>
+                    <span style="position: relative;bottom: 2.7em;">ON</span>
+                </div>
+                
+                </div>
+            <div class="inner_container">
+                <div id="blue" class="boxes"></div>
+                <div id="yellow" class="boxes"></div>
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
